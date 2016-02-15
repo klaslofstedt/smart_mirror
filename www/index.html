@@ -6,6 +6,9 @@
         <meta name="mobile-web-app-capable" content="yes" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,700,700italic,500italic' rel='stylesheet' type='text/css'>
+        <!-- Nice google font -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+        <!-- end google fonts-->
         <title>Smart Mirror</title>
 
         <script src="lib/onsenui/js/onsenui.js"></script>
@@ -27,9 +30,9 @@
 
     <body>
         <ons-page style="background:black" modifier="material" ng-controller="SmartMirrorController">
-        <font size="20" color="white">{{clock | date:'HH:mm'}}</font><br>
-        <font size="4" color="white">{{clock | date:'EEEE'}}</font><br>
-        <font size="4" color="white">{{clock | date:'dd MMMM yyyy'}}</font><br>
+        <p style="font-family: 'Roboto', sans-serif; font-weight: 100; color:White; font-size: 200px; margin: 0;">{{clock | date:'HH:mm'}}</p>
+        <p style="font-family: 'Roboto', sans-serif; font-weight: 400; color:White; font-size: 30px;">{{clock | date:'EEEE'}}<br>
+        {{clock | date:'dd MMMM yyyy'}}</p>
         </ons-page>
     </body>
 </html>
