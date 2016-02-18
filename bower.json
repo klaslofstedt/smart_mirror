@@ -18,6 +18,8 @@
   "devDependencies": {
     "onsenui": "2.0.0-beta.5",
     "react": "~0.14.2",
-    "angular": "~1.4.8"
-  }
+    "angular": "~1.4.8",
+    "simpleWeather": "^3.1.0"
+  },
+  "dependencies": {}
 }

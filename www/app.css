@@ -25,3 +25,41 @@ ons-splitter-side {
   margin-top: -2px;
   font-size: 17px;
 }
+
+text.google_heading_r {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: White;
+    font-size: 200px;
+    position: absolute;
+    right: 0;
+    margin: 0;
+}
+text.google_heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: White;
+    font-size: 200px;
+    margin: 0;
+}
+
+text.google_body_r {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: White;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    margin: 0;
+}
+text.google_body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: White;
+    font-size: 30px;
+}
+
+pos.right {
+    text-align: right;
+}
+

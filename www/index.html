@@ -30,9 +30,26 @@
 
     <body>
         <ons-page style="background:black" modifier="material" ng-controller="SmartMirrorController">
-        <p style="font-family: 'Roboto', sans-serif; font-weight: 100; color:White; font-size: 200px; margin: 0;">{{clock | date:'HH:mm'}}</p>
-        <p style="font-family: 'Roboto', sans-serif; font-weight: 400; color:White; font-size: 30px;">{{clock | date:'EEEE'}}<br>
-        {{clock | date:'dd MMMM yyyy'}}</p>
+            <ons-row>
+            <ons-col>
+            <text class="google_heading"> {{clock | date:'HH:mm'}} </text>
+            </ons-col>
+            <ons-col>
+            <text class="google_heading_r"> {{ temp }}°C</text><br>
+            </ons-col>
+            </ons-row>
+            <ons-row>
+            <text class="google_body"> {{clock | date:'EEEE'}}
+            {{clock | date:'dd MMMM yyyy'}} </text>
+            </ons-col>
+            <ons-col>
+            <text class="google_body_r"> {{ day0 }} from {{ min0 }}° to {{ max0 }}°</text><br><br>
+            <text class="google_body_r"> {{ day1 }} from {{ min1 }}° to {{ max1 }}°</text><br><br>
+            <text class="google_body_r"> {{ day2 }} from {{ min2 }}° to {{ max2 }}°</text><br><br>
+            <text class="google_body_r"> {{ day3 }} from {{ min3 }}° to {{ max3 }}°</text><br><br>
+            <text class="google_body_r"> {{ day4 }} from {{ min4 }}° to {{ max4 }}°</text><br><br>
+            </ons-col>
+            </ons-row>
         </ons-page>
     </body>
 </html>
